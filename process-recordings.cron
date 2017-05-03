@@ -1,0 +1,7 @@
+#!/bin/bash
+# Version: 1.3.6
+MAILTO="praveen.marothu@surveysampling.com"
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+*/10 * * * * asterisk /vox/rec-processor/process-recordings.sh >> /vox/log/rec-processor.cron.log 2>&1
+

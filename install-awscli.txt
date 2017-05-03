@@ -1,0 +1,10 @@
+yum install python-pip
+pip install awscli
+
+sudo bash
+su root
+
+aws configure
+
+
+
